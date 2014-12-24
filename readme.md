@@ -10,6 +10,10 @@ npm install
 ````javascript
 gulp
 ````
+3)
+````javascript
+Add node-webkit executable to build dir. Get it from: https://github.com/rogerwang/node-webkit
+````
 
 What is working?
 Livereload;
