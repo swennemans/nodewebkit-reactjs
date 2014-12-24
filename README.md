@@ -17,7 +17,10 @@ React.js components are located in components dir. In the methods dir is an exam
 ````
 
 What is working?
-Livereload;
-Browserify
-NPM modules (not extensively tested, but 'fs' works).
+- Reload on change;
+- Browserify;
+- NPM modules (not extensively tested, but 'fs' works).
+
+How to add node module?
+Require in index.html to make the node module available. See: https://github.com/substack/node-browserify/issues/481#issuecomment-46753255
 
