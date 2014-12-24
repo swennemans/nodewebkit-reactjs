@@ -1,0 +1,23 @@
+{
+  "name": "weshare",
+  "main": "index.html",
+  "dependencies": {
+    "react": "^0.12.2"
+  },
+  "version": "0.0.1",
+  "single-instance": true,
+  "window": {
+    "title": "weshare",
+    "width": 650,
+    "height": 650,
+    "min_width": 650,
+    "min_height": 650,
+    "toolbar": true
+  },
+  "devDependencies": {
+    "browserify": "^7.0.3",
+    "gulp": "^3.8.10",
+    "reactify": "^0.17.1",
+    "vinyl-source-stream": "^1.0.0"
+  }
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang='en-GB'>
+<head>
+    <meta charset='utf-8'>
+    <title>React.js</title>
+    <script>
+
+        /* Here require Node modules that need to run in Node context
+        /* modules required here will work in browserfied build.
+         */
+
+        var nodeRequire = require;
+        var fs = require('fs');
+
+    </script>
+</head>
+
+<body>
+
+
+<div id="react"></div>
+<script>
+    var gulp = require('gulp');
+    gulp.task('reload', function () {
+        if (location) location.reload();
+    });
+
+    gulp.watch('**/*', ['reload']);
+</script>
+<script src="bundle.js"></script>
+</body>
+</html>
