@@ -6,6 +6,10 @@ A node-webkit starter with react.js with todo example and browserify.
 React.js components are located in components dir. In the methods dir is an example of using the 'fs' module.
 
 
+Start
+-----
+
+
 ````javascript
 1) npm install
 ````
@@ -17,10 +21,12 @@ React.js components are located in components dir. In the methods dir is an exam
 ````
 
 What is working?
+----------------
 - Reload on change;
 - Browserify;
 - NPM modules (not extensively tested, but 'fs' works).
 
-How to add node module?
+How to add an node module?
+-----------------------
 Require in index.html to make the node module available. See: https://github.com/substack/node-browserify/issues/481#issuecomment-46753255
 
