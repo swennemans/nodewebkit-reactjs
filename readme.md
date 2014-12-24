@@ -1,26 +1,31 @@
+nodewebkit-reactjs
+==================
+
 A node-webkit starter with react.js with todo example and browserify.
 
 React.js components are located in components dir. In the methods dir is an example of using the 'fs' module.
 
-1)
+
+Start
+-----
+
+
 ````javascript
-npm install
+1) npm install
 ````
-2)
 ````javascript
-gulp
+2) gulp
 ````
-3)
 ````javascript
-Add node-webkit executable to build dir. Get it from: https://github.com/rogerwang/node-webkit
+3) Add node-webkit executable to build dir. Get it from: https://github.com/rogerwang/node-webkit
 ````
 
 What is working?
-Livereload;
-Browserify
-NPM modules (not extensively tested, but 'fs' works).
+----------------
+- Reload on change;
+- Browserify;
+- NPM modules (not extensively tested, but 'fs' works).
 
-
-
-
-
+How to add an node module?
+-----------------------
+Require in index.html to make the node module available. See: https://github.com/substack/node-browserify/issues/481#issuecomment-46753255

@@ -1,5 +1,5 @@
 {
-  "name": "weshare",
+  "name": "Node-webkit and React.js",
   "main": "index.html",
   "dependencies": {
     "react": "^0.12.2"
@@ -7,7 +7,7 @@
   "version": "0.0.1",
   "single-instance": true,
   "window": {
-    "title": "weshare",
+    "title": "Node-webkit and React.js",
     "width": 650,
     "height": 650,
     "min_width": 650,
