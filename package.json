@@ -1,5 +1,5 @@
 {
-  "name": "Node-webkit and React.js",
+  "name": "Node-webkit-and-React.js",
   "main": "index.html",
   "dependencies": {
     "react": "^0.12.2"
